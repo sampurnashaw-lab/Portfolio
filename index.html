@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAMPURNA SHAW</title>
+<meta name="description" content="Freelance video editor portfolio: cinematic edits, promos, reels and documentaries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+<div class="grain" aria-hidden="true"></div>
+
+<!-- PRELOADER -->
+<div id="preloader" role="status" aria-label="Loading">
+  <div class="frames" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="pre-center">
+    <h1 class="pre-logo">SAMPURNA SHAW</h1>
+    <p class="pre-tag">TURNING MOMENTS INTO STORIES.</p>
+    <div class="bar"><span id="barFill"></span></div>
+  </div>
+  <button id="skipIntro" class="btn ghost small">Skip intro</button>
+</div>
+
+<!-- NAV -->
+<header id="nav">
+  <a href="#home" class="logo">SAMPURNA<b>SHAW</b></a>
+  <button id="menuBtn" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu" aria-label="Main">
+    <a href="#home" class="active">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#services">Services</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-bg parallax" data-speed="0.25" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="kicker rv">VIDEO EDITOR &amp; VISUAL STORYTELLER</p>
+    <h2 class="hero-title"><span class="line"><span>I DON'T JUST EDIT VIDEOS.</span></span><span class="line"><span>I CREATE <em>EXPERIENCES.</em></span></span></h2>
+    <p class="lead rv">Crafting cinematic visuals, engaging stories, and memorable digital experiences through the art of video editing.</p>
+    <div class="cta rv">
+      <button class="btn magnetic" data-open="showreel">Watch my showreel</button>
+      <a class="btn ghost magnetic" href="#portfolio">Explore my work</a>
+    </div>
+  </div>
+  <a href="#showreel" class="scroll-ind" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- SHOWREEL -->
+<section id="showreel" class="sec">
+  <div class="wrap">
+    <h2 class="rv">THE SHOWREEL</h2><p class="sub rv">A glimpse into my creative world.</p>
+    <button class="reel rv" id="reelCard" data-open="showreel" aria-label="Play showreel">
+      <img id="reelImg" alt="Showreel thumbnail" loading="lazy">
+      <span class="shade"></span>
+      <span class="play big"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+      <span class="reel-meta"><small>Watch showreel</small><strong id="reelTitle"></strong><em id="reelDur"></em></span>
+    </button>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="sec alt">
+  <div class="wrap">
+    <h2 class="rv">SELECTED WORKS</h2><p class="sub rv">Every frame has a story. Here are some of mine.</p>
+    <div id="filters" class="filters" role="tablist" aria-label="Project categories"></div>
+    <div id="grid" class="grid"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="sec">
+  <div class="wrap about">
+    <div class="about-img rv">
+      <div class="frame"><img src="assets/sampurna.jpeg" alt="Portrait of the editor (replace with your photo)" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph',textContent:'YOUR PHOTO'}))"></div>
+      <div class="badge"><b data-count="1" data-suffix="+">0</b><span>Years editing<br>(edit me)</span></div>
+    </div>
+    <div>
+      <h2 class="rv">BEHIND THE FRAMES</h2>
+      <p class="rv">I'm a freelance video editor who believes a great cut is felt before it is noticed. I start with the story, shape rhythm with picture and sound, and finish with color that supports the mood.</p>
+      <p class="rv">Replace this text with your own journey, editing philosophy and what you love about storytelling.</p>
+      <ul class="stats">
+        <li><b data-count="10" data-suffix="+">0</b><span>Projects Completed</span></li>
+        <li><b data-count="8" data-suffix="+">0</b><span>Happy Clients</span></li>
+        <li><b data-count="1" data-suffix="+">0</b><span>Years of Experience</span></li>
+        <li><b data-count="30" data-suffix="+">0</b><span>Videos Edited</span></li>
+      </ul>
+      <p class="note">Placeholder numbers — edit data-count values in index.html.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section id="tools" class="sec alt">
+  <div class="wrap">
+    <h2 class="rv">TOOLS BEHIND THE MAGIC</h2>
+    <div class="tools">
+      <div class="tool rv"><i data-lucide="clapperboard"></i>Adobe Premiere Pro</div>
+      <div class="tool rv"><i data-lucide="sparkles"></i>Adobe After Effects</div>
+      <div class="tool rv"><i data-lucide="image"></i>Adobe Photoshop</div>
+      <div class="tool rv"><i data-lucide="audio-waveform"></i>Adobe Audition</div>
+      <div class="tool rv"><i data-lucide="pen-tool"></i>Adobe Illustrator</div>
+    </div>
+    <ul class="chips">
+      <li class="rv">Video Editing</li><li class="rv">Color Grading</li><li class="rv">Motion Graphics</li><li class="rv">Sound Design</li><li class="rv">Visual Storytelling</li><li class="rv">Cinematic Editing</li><li class="rv">Social Media Editing</li><li class="rv">Transitions &amp; Effects</li><li class="rv">Photoshop</li><li class="rv">Premiere Pro</li><li class="rv">After Effects</li><li class="rv">Animate cc</li><li class="rv">Adobe Audition</li><li class="rv">Character Animation</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="sec">
+  <div class="wrap">
+    <h2 class="rv">WHAT I CAN CREATE</h2>
+    <div class="cards">
+      <article class="card rv"><i data-lucide="youtube"></i><h3>YouTube Video Editing</h3><p>Retention-focused edits with pacing, captions and clean audio.</p></article>
+      <article class="card rv"><i data-lucide="smartphone"></i><h3>Instagram Reels &amp; Shorts</h3><p>Vertical, punchy cuts built for the first three seconds.</p></article>
+      <article class="card rv"><i data-lucide="clapperboard"></i><h3>Cinematic Video Editing</h3><p>Story-first edits with rhythm, mood and polish.</p></article>
+      <article class="card rv"><i data-lucide="megaphone"></i><h3>Commercial &amp; Promotional</h3><p>Brand videos that explain, persuade and look sharp.</p></article>
+      <article class="card rv"><i data-lucide="bot"></i><h3>AI Video</h3><p>Generated content using artificial intelligence.</p></article>
+      <article class="card rv"><i data-lucide="wand-sparkles"></i><h3>Motion Graphics </h3><p>Titles, lower thirds, animated elements and clean effects.</p></article>
+      <article class="card rv"><i data-lucide="palette"></i><h3>Color Grading</h3><p>Consistent, mood-driven color from log to final.</p></article>
+      <article class="card rv"><i data-lucide="mic"></i><h3>Documentary Editing</h3><p>Structuring interviews and archive into a clear narrative.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="sec alt">
+  <div class="wrap">
+    <h2 class="rv">FROM IDEA TO FINAL FRAME</h2>
+    <ol class="steps">
+      <li class="step"><b>01</b><h3>Understand the Story</h3><p>Goals, audience and tone.</p></li>
+      <li class="step"><b>02</b><h3>Organize the Footage</h3><p>Sort, sync and select the best takes.</p></li>
+      <li class="step"><b>03</b><h3>Edit &amp; Build the Narrative</h3><p>Shape structure, pace and flow.</p></li>
+      <li class="step"><b>04</b><h3>Color Grade &amp; Sound Design</h3><p>Finish the look and the mix.</p></li>
+      <li class="step"><b>05</b><h3>Final Delivery</h3><p>Export in the right formats and revise.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="sec">
+  <div class="wrap">
+    <h2 class="rv">KIND WORDS</h2>
+    <p class="sub rv">Sample content — replace with real client feedback.</p>
+    <div class="slider" id="slider">
+      <div class="slides" id="slides"></div>
+      <div class="s-ctrl"><button id="prev" aria-label="Previous">‹</button><button id="next" aria-label="Next">›</button></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="sec alt">
+  <div class="wrap contact">
+    <div>
+      <h2 class="rv">LET'S CREATE SOMETHING AMAZING.</h2>
+      <p class="sub rv">Have a project in mind? Let's bring your vision to life.</p>
+      <ul class="links">
+        <li><a href="sampurnashawindian@gmail.com">sampurnashawindian@gmail.com</a></li>
+        <li><a href="https://instagram.com/yourhandle" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/sampurna-shaw-b98b07399/" target="_blank" rel="noopener">LinkedIn</a></li>
+
+      </ul>
+    </div>
+    <form id="form" novalidate>
+      <label>Name<input name="name" required autocomplete="name"></label>
+      <label>Email<input name="email" type="email" required autocomplete="email"></label>
+      <label>Project type
+        <select name="type" required><option value="">Select…</option><option>YouTube Video</option><option>Reels &amp; Shorts</option><option>Cinematic</option><option>Commercial</option><option>Wedding &amp; Event</option><option>Other</option></select>
+      </label>
+      <label>Message<textarea name="message" rows="5" required></textarea></label>
+      <p id="formMsg" role="alert"></p>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><a href="#home" class="logo">SAMPURNA<b>SHAW</b></a><p>CRAFTED WITH PASSION. FRAME BY FRAME.</p></div>
+    <nav aria-label="Footer"><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+    <nav aria-label="Social"><a href="https://www.instagram.com/itzzz_sampurna?exln=MTdmZmxyeXU2YXd5OQ== target="_blank" rel="noopener">Instagram</a><a href="https://www.linkedin.com/in/sampurna-shaw-b98b07399/" target="_blank" rel="noopener">LinkedIn</a></nav>
+  </div>
+  <p class="copy">© <span id="year"></span> Design By <a href="https://www.linkedin.com/in/dhrubojyotimondal9/" target="_blank" rel="noopener">Dhrubohyoti Mondal</a>.</p>
+</footer>
+<button id="toTop" aria-label="Back to top">↑</button>
+
+<!-- VIDEO MODAL (iframe injected only on click) -->
+<div id="modal" role="dialog" aria-modal="true" aria-label="Video player" hidden>
+  <div class="m-back" data-close></div>
+  <div class="m-box">
+    <button class="m-close" data-close aria-label="Close video">✕</button>
+    <div class="m-video" id="mVideo"></div>
+    <div class="m-info"><h3 id="mTitle"></h3><p id="mDesc"></p></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lucide@0.451.0/dist/umd/lucide.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
